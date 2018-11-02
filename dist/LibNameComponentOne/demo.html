@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>LibNameComponentOne demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./LibNameComponentOne.umd.js"></script>
+<link rel="stylesheet" href="./LibNameComponentOne.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: LibNameComponentOne
+  }
+}).$mount('#app')
+</script>
