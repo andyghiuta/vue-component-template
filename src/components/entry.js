@@ -16,6 +16,8 @@ function register() {
   ));
 }
 
-export { register };
+export {
+  ComponentOne,
+};
 
-export default components;
+export default register;

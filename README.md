@@ -64,7 +64,7 @@ npm i copy-webpack-plugin
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
 	configureWebpack: {
-    plugins: [
+		plugins: [
 			new CopyWebpackPlugin([{ from: 'node_modules/lib-name/dist/img/*', to: 'img/', flatten: true }]),
 		],
 	},
